@@ -51,6 +51,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--eureka start-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+            </dependency>
+            <!--eureka end-->
         </dependencies>
     </dependencyManagement>
 
