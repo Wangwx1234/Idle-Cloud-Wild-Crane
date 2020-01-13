@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka" />
+        <module name="admin" />
         <module name="config" />
         <module name="Idle-Cloud-Wild-Crane" />
-        <module name="admin" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
   </component>
