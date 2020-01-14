@@ -13,7 +13,7 @@ COPY ./springcloud-config.jar /spring-cloud/springcloud-config.jar
 COPY ./app-entrypoint.sh /
 #给app-entrypoint.sh赋予可执行权限
 RUN chmod +x /app-entrypoint.sh
-#对外暴漏的端口号
+#对外暴露的端口号
 EXPOSE 3002
 #开机启动
 ENTRYPOINT ["/app-entrypoint.sh"]
